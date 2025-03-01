@@ -26,3 +26,12 @@ terraform destroy
     
     `terraform output application_name`
 
+### workspace
+
+```shell
+terraform workspace list
+terraform workspace new dev
+terraform workspace select default
+
+
+```
