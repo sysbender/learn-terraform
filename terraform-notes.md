@@ -13,10 +13,16 @@ terraform destroy
 
 
 ```
-### input variable
+###  variable
 
-```shell
-terraform apply -var "application_name=myblog" -var "environment_name=dev"
-```
-### local variable
+
+1. input variable
+    ```shell
+    terraform apply -var "application_name=myblog" -var "environment_name=dev"
+    ```
+1. local variable
+
+1. output variable
+    
+    `terraform output application_name`
 

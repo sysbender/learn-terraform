@@ -1,8 +1,8 @@
-resource random_string suffix {
-    // attribute
-        length =  6
-        upper = true
-        special = false
+resource "random_string" "suffix" {
+  // attribute
+  length  = 6
+  upper   = true
+  special = false
 }
 
 
