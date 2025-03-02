@@ -27,6 +27,11 @@ variable "regions" {
 
 variable "region_instance_counnt" {
     type = map(string)
-    
+
+  
+}
+
+variable "enabled" {
+    type = bool
   
 }

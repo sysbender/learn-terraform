@@ -21,3 +21,12 @@ resource "random_string" "map" {
     for_each = var.region_instance_counnt
   
 }
+
+
+resource "random_string" "if" {
+
+    count = var.enabled ? 1 : 0
+    length = 12
+
+  
+}
