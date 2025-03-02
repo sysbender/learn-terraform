@@ -19,7 +19,14 @@ variable "environment_name" {
 
 # }
 
-# variable "regions" {
-#   type = list(string)
+variable "regions" {
+  type = list(string)
 
-# }
+}
+
+
+variable "region_instance_counnt" {
+    type = map(string)
+    
+  
+}

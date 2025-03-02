@@ -11,3 +11,6 @@ output "environment_prefix" {
 output "suffix" {
   value = random_string.suffix.result
 }
+output "regions" {
+    value = var.regions
+}
