@@ -43,3 +43,10 @@ az account list --output table
 az account show
 ```
 env var: ARM_SUBSCRIPTION_ID = ""
+
+azure abbreviation prefix
+
+
+### use azure storage as backend for tf state
+
+
