@@ -35,3 +35,11 @@ terraform workspace select default
 
 
 ```
+
+## azure
+
+```shell
+az account list --output table
+az account show
+```
+env var: ARM_SUBSCRIPTION_ID = ""
