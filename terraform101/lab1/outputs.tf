@@ -14,3 +14,15 @@ output "suffix" {
 output "regions" {
     value = var.regions
 }
+
+
+output "demo_random" {
+
+    value = module.demo_random_module.random_string
+}
+
+output "demo_rando" {
+    value = module.rando1.random_string
+    
+  
+}

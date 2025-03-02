@@ -30,3 +30,13 @@ resource "random_string" "if" {
 
   
 }
+
+module "demo_random_module" {
+  source  = "hashicorp/module/random"
+  version = "1.0.0"
+}
+
+module "rando1" {
+  source = "./modules/rando"
+  length = 32
+}
