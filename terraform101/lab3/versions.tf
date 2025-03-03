@@ -7,21 +7,17 @@ terraform {
       version = "~> 4.21.1"
     }
     random = {
-      source = "hashicorp/random"
+      source  = "hashicorp/random"
       version = "~> 3.6.3"
     }
   }
 
   backend "azurerm" {
-    resource_group_name = "rg-terraform-state-dev"
-    storage_account_name = "st7dmss4e2qk"
-    container_name = "tfstate"
-    key = "observability-dev"
   }
 }
 
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
   features {}
-  
+
 }
