@@ -12,7 +12,7 @@ export TF_VAR_environment_name="dev"
 # set backend
 terraform init \
     -backend-config="resource_group_name=rg-terraform-state-dev" \
-    -backend-config="storage_account_name=st7dmss4e2qk" \
+    -backend-config="storage_account_name=stsmtz0duryx" \
     -backend-config="container_name=tfstate" \
     -backend-config="key=observability-dev" 
 
